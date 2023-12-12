@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
 
-    font-size: 1200%;
+    font-size: 1000%;
     display: flex;
     color: #FF6060;
     font-weight: bold;
@@ -31,21 +31,17 @@
 }
 
 
-.link {
-    width: 100%;
-    max-width: 1240px;
-
-
-    margin-left: 38%;
-
+.erreurmainpage {
+   
     
     font-family: 'Montserrat', sans-serif;
-    
     text-decoration: none;
     color: #ff6060;
+    margin-left: 38%;
     
     
 }
+
 
 
 .link:hover {
@@ -54,7 +50,7 @@
 
 @media screen and (min-width : 355px) and (max-width: 768px){
     .erreurmsg{
-        width: 90%;
+        width: 80%;
         align-items: center;
         margin-left: 5%;
         margin-right: 5%;
@@ -63,4 +59,6 @@
         width: 100%;
         margin-left: 5%;
     }
+
+
 }

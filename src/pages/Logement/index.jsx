@@ -1,9 +1,9 @@
 import React from 'react';
-import { Navigate, useLocation } from 'react-router-dom';
-import Etoiles from '../../components/Etoiles';
-import Slide from '../../components/Slideshow';
-import Collapse from '../../components/Collapse';  // Importer TotalCollapse
-import { logementslist } from "../../data/logements.js";
+import { Navigate, useLocation } from 'react-router-dom'
+import Etoiles from '../../components/Etoiles'
+import Slide from '../../components/Slideshow'
+import Collapse from '../../components/Collapse'
+import { logementslist } from "../../data/logements.js"
 import './logement.css';
 
 function Logement() {
@@ -18,7 +18,7 @@ function Logement() {
     return <Navigate to="*" />;
   }
 
-  const { pictures, title, description, host, rating, location: locationInfo, equipments, tags } = logement;
+  const { pictures, title, description, host, rating, location: locationInfo, equipments, tags } = logement
 
   return (
     <div className='PageHome'>
