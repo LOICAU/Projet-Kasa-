@@ -1,0 +1,62 @@
+/* Importer la police Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+.Footer {
+    width: 100%;
+    max-width: 1440px;
+    height: 209px;
+    background-color: #000000;
+    margin-top: 5%;
+    position: relative;
+    flex-direction: column;
+
+}
+
+.FootLogo {
+    display: flex;
+    position: relative;
+    padding-left: 45%;
+    padding-right: 45%;
+    
+    padding-top: 5%;
+   
+    
+    max-width: 1440px;
+
+    
+    
+}
+
+.TexteFooter {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 40%;
+    padding-right: 20%;
+    padding-top: 2%;
+    
+}
+
+
+@media screen and (min-width : 355px) and (max-width: 768px){
+    .Footer{
+        width: 100%;
+        max-width: 768px;
+    }
+    .FootLogo{
+        
+       
+        margin-top: 8%;
+        
+
+    }
+
+    .TexteFooter{
+        
+        
+        margin-top: 5%;
+    }
+}
+
+

@@ -1,0 +1,16 @@
+.collapse-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1190px;
+    margin-left: 125px;
+    margin-right: 125px;
+    
+}
+
+@media screen and (min-width: 355px) and (max-width: 768px){
+    .collapse-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

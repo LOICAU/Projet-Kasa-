@@ -1,0 +1,49 @@
+.BannerHome {
+    display: flex;
+    max-width: 1440px;
+    height: 223px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+   
+
+
+}
+
+.textB{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 250%;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    object-fit: contain;
+    max-width: 1240px;
+    z-index: 1;
+    
+    
+
+}
+
+.BannierHome {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1240px;
+    filter: brightness(80%);
+  
+    height: 223px;
+    z-index: -1;
+    
+
+}
+
+@media screen and (min-width: 355px) and (max-width: 768px){
+    .BannerHome{
+        width: 100%;
+        margin: 0;
+    }
+}

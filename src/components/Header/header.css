@@ -1,0 +1,58 @@
+/* Importer la police Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+
+.Header{
+    display: flex;
+    max-width: 1240px;
+    height: 68px;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+    
+}
+
+.NavContainer {
+    display : flex;
+    margin-left: -50px;
+    height: 68px;
+    justify-content: space-around;
+    width: 200px;
+    
+    font-size: 105%;
+
+    
+}
+
+.HomeLogo {
+    height: 68px;
+    max-height: 60%;
+    
+}
+
+.link {
+    width: 200px;
+    margin-left: -1px;
+    
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: row;
+    text-decoration: none;
+    color: #ff6060;
+}
+
+
+ .Header .active {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+    .Header{
+        width: 100%;
+        margin: 0;
+    }
+}

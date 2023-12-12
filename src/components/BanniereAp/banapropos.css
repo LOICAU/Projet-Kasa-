@@ -1,0 +1,33 @@
+.BannerAp {
+    display: flex;
+    max-width: 1440px;
+    height: 223px;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    
+   
+
+
+}
+.BannierApropos {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1240px;
+    filter: brightness(80%);
+  
+    height: 223px;
+    z-index: -1;
+    
+
+}
+
+@media screen and (min-width: 355px) and (max-width: 768px){
+    .BannerAp{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}

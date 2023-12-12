@@ -1,0 +1,88 @@
+/* Importer la police Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.logements{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    max-width: 1240px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding-bottom: 5%;
+    
+}
+
+
+
+  
+.fiche-logement{
+    width: 24%;
+    margin-left: 7%;
+    max-width: 340px;
+    height: 300px;
+    min-height: 300px;
+    border-radius: 25px;
+    
+    margin-top: 5%;
+    position: relative;
+    background-color: #FF6060;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+.fiche-logement a {
+    
+    text-decoration: none;
+   
+    
+  }
+
+
+
+.imgL{
+   
+    max-width: 100%;
+    width: 100%;
+    height:  200px;
+    object-fit: cover;
+    margin: 0%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+
+
+
+.timg{
+    object-fit: cover;
+    margin-left: 5%;
+    color: white;
+    height: 40px;
+    font-size: 90%;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+   
+
+}
+
+@media screen and (min-width: 355px) and (max-width: 768px){
+    .logements{
+        width: 100%;
+        margin: 0;
+        background-color: white;
+
+    }
+    .fiche-logement{
+        width: 100%;
+        max-width: 768px;
+        margin-left: 0;
+    }
+}

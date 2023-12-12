@@ -1,0 +1,222 @@
+/* Importer la police Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.PageHome{
+    max-width: 1440px;
+}
+.Logementinfos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Titrelocationtag{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.Hostimgstars{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    padding-top: 1%;
+    
+}
+
+.Titrelocationtag h2{
+    color: #ff6060;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.Locationinf{
+    color: #ff6060;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+.Nom{
+    color: #ff6060;
+    font-family: 'Montserrat', sans-serif;
+    
+    margin-right: 2%;
+    
+    
+    
+
+}
+.Hostimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    
+    
+    
+    
+}
+
+.Imghost {
+    width: 64px;
+    height: 64px;
+    
+    border-radius: 35px;
+    
+
+}
+
+.Tag{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Tag ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: -40px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.Tag li {
+    list-style-type: none;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #ff6060;
+    margin-right: 5px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    padding: 10px 20px 10px 20px;
+    
+    
+    
+}
+
+.Etoilesnotation {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+   
+    margin-top: 8%;
+}
+
+
+.collapse-data{
+    margin: 30px 70px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 0px 70px;
+    
+}
+
+.Description {
+    max-width: 582px;
+    width: 100%;
+    margin-right: 85px;
+    margin-left: -70px;
+
+}
+
+.Equipements {
+    width: 100%;
+   
+    margin-right: -70px;
+   
+}
+
+.Equipements li {
+    list-style-type: none;
+    
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 768px){
+    .Logementinfos{
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+    .Hostimgstars{
+        
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 2%;
+        
+    }
+    
+    
+    .Titrelocationtag{
+        display: flex;
+        flex-direction: column;
+        margin : 0;
+        width: 100%;
+    }
+
+    .Tag{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        max-width: 768px;
+    }
+    .Tag li {
+        list-style-type: none;
+        
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: #ff6060;
+        margin-right: 5px;
+        border-radius: 25px;
+        
+        
+        
+        
+    }
+
+    
+
+    .collapse-data{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        
+       
+        max-width: 768px;
+        width: 100%;
+    }
+   
+    .Description {
+        max-width: 768px;
+        width: 100%;
+        margin-left: 0.1%;
+        
+        
+        
+    
+    }
+    
+    .Equipements {
+        width: 100%;
+        max-width: 768px;
+        
+       
+        
+       
+}
+}
