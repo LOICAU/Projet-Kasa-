@@ -50,14 +50,25 @@
 
 @media screen and (min-width : 355px) and (max-width: 768px){
     .erreurmsg{
-        width: 80%;
-        align-items: center;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 90%;
+        margin-left: 10%;
+        justify-content: center;
+        max-width: 768px;
+        display: flex;
+        
     }
-    .erreurtitre{
-        width: 100%;
-        margin-left: 5%;
+    .erreurmsg p{
+        width: 90%;
+        max-width: 768px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+       
+    }
+
+    .erreurmainpage{
+        margin-left: 25%;
     }
 
 
